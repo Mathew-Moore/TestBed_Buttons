@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TestBed_Buttons"
-        xmlns:remote="clr-namespace:MooreM.UserControls.Buttons;assembly=UserControls_Buttons"
+        xmlns:uc_Button="clr-namespace:MooreM.UserControls.Buttons;assembly=UserControls_Buttons"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
@@ -20,7 +20,8 @@
             <RowDefinition Height="100"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
-        <remote:ucKJU x:Name="btnMOB" KeyValue="12" ></remote:ucKJU>
-        <remote:ucRCU x:Name="btnRCU" Grid.Row="1" Grid.Column="1"></remote:ucRCU>
+        <uc_Button:ucKJU x:Name="btnMOB" KeyValue="12" Background="Gray" Margin="5" ></uc_Button:ucKJU>
+        <uc_Button:ucKJU x:Name="Fred" Grid.Row  ="2" Content="Fred" BorderBrush="#FFD43A3A" Margin="5,5,5,5" Foreground="White"/>
+        <uc_Button:ucRCU x:Name="btnRCU" Grid.Row="1" Grid.Column="1"></uc_Button:ucRCU>
     </Grid>
 </Window>

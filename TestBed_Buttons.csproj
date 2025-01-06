@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="UserControls_Buttons" Version="1.0.5" />
+    <PackageReference Include="UserControls_Buttons" Version="1.0.12" />
   </ItemGroup>
 
 </Project>
